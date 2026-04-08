@@ -9,3 +9,6 @@ dependencies = [
     "torch",
     "numpy",
 ]
+
+[tool.setuptools.packages.find]
+include = ["pytorch_filters*"]
