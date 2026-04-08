@@ -1,7 +1,6 @@
 import numpy as np
 import torch
 import torch.nn.functional as F
-import time
 
 def scale(image: torch.Tensor, scaler: float=1) -> torch.Tensor:
 

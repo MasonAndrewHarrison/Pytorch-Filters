@@ -3,12 +3,11 @@ import torch
 import torchvision.transforms.functional as TF
 import matplotlib.pyplot as plt
 from PIL import Image
-from main import canny, difference_of_gaussians, ex_difference_of_gaussians
-
+from pytorch_filters import canny, difference_of_gaussians, ex_difference_of_gaussians
 
 def load_image(path: str) -> torch.Tensor:
     img = Image.open(path).convert("L")
-    return TF.to_tensor(img).unsqueeze(0)  # [1, 1, H, W]
+    return TF.to_tensor(img).unsqueeze(0) 
 
 
 def show(original, results):
