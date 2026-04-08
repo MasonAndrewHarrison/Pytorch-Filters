@@ -5,10 +5,24 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pytorch-filters"
 version = "0.1.0"
+description = "Image edge detection filters built with PyTorch"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+keywords = ["pytorch", "image processing", "edge detection", "computer vision"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering :: Image Processing",
+]
 dependencies = [
     "torch",
     "numpy",
 ]
+
+[project.urls]
+Homepage = "https://github.com/mason/pytorch-filters"
+Repository = "https://github.com/mason/pytorch-filters"
 
 [tool.setuptools.packages.find]
 include = ["pytorch_filters*"]
