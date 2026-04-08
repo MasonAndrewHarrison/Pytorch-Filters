@@ -1,6 +1,6 @@
 # Pytorch-Filters
 
-A collection of image edge detection filters built with PyTorch — fully vectorized, GPU-compatible, and easy to drop into any vision pipeline.
+A collection of image edge detection filters built with PyTorch — fully vectorized, GPU-compatible, and easy to drop into any pytorch pipeline.
 
 ## Filters
 
