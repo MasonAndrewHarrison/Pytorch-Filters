@@ -39,7 +39,7 @@ python demo.py images/demo1.jpg
 
 This will display the original image alongside Canny, DoG, and XDoG results side by side.
 
-![demo output](images/output.png)
+![demo output](images/output1.png)
 
 ## Requirements
 
